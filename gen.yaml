@@ -1,0 +1,24 @@
+configVersion: 2.0.0
+generation:
+  sdkClassName: SDK
+  maintainOpenAPIOrder: true
+  usageSnippets:
+    optionalPropertyRendering: withExample
+  useClassNamesForArrayFields: true
+  fixes:
+    nameResolutionDec2023: true
+swift:
+  version: 0.0.1
+  author: Venari
+  description: Venari AI Swift SDK
+  imports:
+    option: openapi
+    paths:
+      callbacks: models/callbacks
+      errors: models/errors
+      operations: models/operations
+      shared: models/shared
+      webhooks: models/webhooks
+  inputModelSuffix: input
+  outputModelSuffix: output
+  packageName: VenariAI
